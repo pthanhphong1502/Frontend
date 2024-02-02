@@ -1,0 +1,13 @@
+<div class="form" *ngIf="isPopupClose" style="border-radius: 10px;">
+  <div class="content">
+    <div></div>
+    <div class="title">Nhập tên category</div>
+    <div class="input">
+      <input type="text" placeholder="Nhập tên Category" name="value" [(ngModel)]="value"/>
+    </div>
+    <div class="btn">
+      <button (click)="close()">Đóng</button>
+      <button (click)="submit()" style="margin-left: 15px;">Xác nhận</button>
+    </div>
+  </div>
+</div>

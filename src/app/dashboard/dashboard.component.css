@@ -1,0 +1,33 @@
+.charts{
+
+  display: flex;
+  margin: 20px;
+  width: 1000px;
+  padding: 10px;
+}
+.line{
+  flex: 1;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.group {
+  margin-top: 40px;
+}
+.ipt input{
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.btn  button{
+  padding: 5px 50px;
+  margin-top: 10px;
+  margin-left: 60px;
+  border-radius: 5px;
+}
+.btn button:hover {
+  cursor: pointer;
+}
+.text {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+

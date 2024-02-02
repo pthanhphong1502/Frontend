@@ -1,0 +1,11 @@
+header {
+  height: 65px;
+  background-color: #BB2649;
+  color: white; /* Chọn màu chữ phù hợp với màu nền */
+  padding: 10px;
+}
+
+img {
+  margin-left: 30px;
+}
+

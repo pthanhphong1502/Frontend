@@ -1,0 +1,15 @@
+<div class="charts" style="display: block;">
+
+  <div class="line" [chart]="lineChart">
+
+  </div>
+  <div class="group">
+    <div class="text" >Vui lòng nhập số năm</div>
+    <div class="ipt">
+      <input type="text" placeholder="Nhập số năm" [(ngModel)]="year">
+    </div>
+    <div class="btn">
+      <button (click)="getChart()">Gửi</button>
+    </div>
+  </div>
+</div>

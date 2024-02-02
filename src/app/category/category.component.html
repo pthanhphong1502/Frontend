@@ -1,0 +1,46 @@
+<div class="product-page">
+
+  <div class="title">
+    <a>Categories Management</a>
+  </div>
+
+  <div class="bar">
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." >
+      <img src="assets/images/search-normal.png" style="background-color: #BB2649; width: 40px;">
+    </div>
+    <div class="buttons-container">
+      <button style="width: 90px;" (click)="add()">
+        <img src="assets/images/add.png" alt="Add">
+        Add
+      </button>
+      <button style="width: 100px;" (click)="delete()">
+        <img src="assets/images/delete.png" alt="Delete">
+        Delete
+      </button>
+    </div>
+  </div>
+
+  <div class="table-content-div">
+    <table class="table-content">
+      <thead>
+        <tr>
+          <th></th>
+          <th>ID</th>
+          <th>Name</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of topUps">
+          <td><input type="checkbox" (change)="onCheckboxChange(item)"></td>
+          <td>{{ item.id }}</td>
+          <td>{{ item.catalogName }}</td>
+          <td><button class="btn-table" (click)="update(item)"><img src="assets/images/edit.png"></button></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</div>
+<app-popup  [isPopupClose]="isPopup" [id]="check" [value]="value"
+[type]="typePopup" [title]="titlePopup" (dataEvent)="receiveDataFromChild($event)"></app-popup>

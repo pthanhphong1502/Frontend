@@ -1,0 +1,67 @@
+
+.title {
+  border-bottom: 2px solid #BB2649;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #BB2649;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.title-info {
+  padding-top: 25px;
+}
+
+h2 {
+  font-size: xx-large;
+  color: #BB2649;
+  padding-bottom: 20px;
+}
+
+.info {
+  padding-top: 30px;
+  display: flex;
+}
+
+#detail-info {
+  padding-left: 30px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  color: #BB2649;
+  font-size: larger;
+}
+
+input {
+  font-size: large;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.div-save {
+  padding-top: 20px;
+}
+
+.btn-save {
+  width: 100%;
+  background-color: #BB2649;
+  color: white;
+  height: 40px;
+  border-color: #BB2649;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.profile-page {
+  padding-left: 200px;
+}
+
+.div-detail-info {
+  padding-top: 5px;
+}
+
+.changpassword {
+  width: 100%;
+}
